@@ -8,9 +8,10 @@
     <!-- Font awesome CDN link -->
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
 
     <!-- BootStrap 5 CDN link -->
     <link
@@ -27,10 +28,59 @@
     <link rel="stylesheet" href="./css/responsive-style.css" />
   </head>
   <body>
+    <!-- Navbar Section -->
 
+    <header id="full-nav">
+      <div class="header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg bg-light">
+            
+              <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="LOGO">
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <!-- <i class="fa-sharp fa-solid fa-bars-staggered"></i> -->
+                <i class="fas fa-stream "></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="product.html">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="contact.html">Contact</a>
+                  </li>
+                </ul>
+                <div class="header_right">
+                  <div class="text-lg-end">
+                    <span>Call us!</span>
+                    <span class="phone_no">+91 9359436297</span>
+                  </div>
+                </div>
+              </div>
+            
+          </nav>
+        </div>
+      </div>
+    </header>
 
-
-    
     <!-- JQUERY CDN -->
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 
