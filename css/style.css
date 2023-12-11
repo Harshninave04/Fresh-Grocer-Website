@@ -1,0 +1,147 @@
+/* General CSS */
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+:root {
+  /* Background color */
+  --bg-white: #fff;
+
+  /* Text Color */
+  --primary-text: #061738;
+  --secondary-color: #60cd12;
+  --light-color: #e2f6de;
+  --dark-color: #03262c;
+  --text-white: #fff;
+  --text-gray: #dee2e6;
+  --anchor-color: #007aaf;
+
+  /* font family */
+  --primary-font: "Barlow-condensed", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+
+body,
+html {
+  color: var(--primary-text);
+  font-size: 10px;
+  font-weight: 400;
+  font-family: var(--primary-text);
+  scroll-behavior: smooth;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 9rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--primary-text);
+}
+
+h2 {
+  font-size: 4.7rem;
+  color: var(--primary-text);
+  font-weight: 600;
+  display: inline-block;
+  text-transform: capitalize;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  color: var(--text-white);
+  font-size: 3.1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 2.5rem;
+  color: var(--primary-text);
+  font-weight: 700;
+  line-height: 1;
+}
+
+h5 {
+  font-size: 1.8rem;
+  color: var(--primary-text);
+  font-weight: 600;
+  line-height: 1;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+  color: var(--primary-text);
+  font-family: var(--secondary-font);
+}
+
+embed,
+iframe,
+img,
+object {
+  max-width: 100%;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a,
+a:active,
+a:hover,
+a:focus,button{
+    text-decoration: none;
+    outline: 0;
+}
+
+
+li a{
+    color: var(--text-white);
+}
+
+a:hover,
+button:hover{
+    -webkit-transition: all 0.3 ease-in;
+    -o-transition: all 0.3 ease-in;
+    -moz-transition: all 0.3 ease-in;
+    transition: all 0.3 ease-in;
+}
+
+::-webkit-scrollbar{
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--bg-white);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--secondary-color);
+}
