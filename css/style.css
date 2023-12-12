@@ -20,7 +20,7 @@
   --bg-white: #fff;
 
   /* Text Color */
-  --primary-text: #061738;
+  --primary-text: #081839;
   --secondary-color: #60cd12;
   --light-color: #e2f6de;
   --dark-color: #03262c;
@@ -124,6 +124,7 @@ a:focus,button{
 
 li a{
     color: var(--text-white);
+    /* color: var(--primary-text); */
 }
 
 a:hover,
@@ -144,4 +145,108 @@ button:hover{
 
 ::-webkit-scrollbar-thumb{
     background: var(--secondary-color);
+}
+
+
+
+.about .banner_section,
+.product .banner_section,
+.gallery .banner_section,
+.contact .banner_section{
+  background: url(../images/banner-slide/top-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 17rem;
+  padding-bottom: 10rem;
+  min-height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 01 Navbar Section */
+
+.header{
+  position: absolute;
+  width: 100%;
+  top: 2rem;
+  left: 0;
+  z-index: 2;
+}
+
+.header .navbar{
+  background: url(../images/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 2rem 5rem;
+
+}
+
+.header .navbar-brand{
+  width: 7.5rem;
+  margin-top: -0.1rem;
+}
+
+.header .navbar-nav .nav-link{
+  color: var(--text-white);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  margin: 0 0.2rem;
+  font-family: var(--primary-font);
+}
+
+.header .navbar-nav .nav-link:hover,
+.header .navbar-nav .nav-link.active{
+  color: var(--secondary-color);
+}
+
+.header .navbar-toggler{
+  color: var(--text-white);
+  font-size: 2rem;
+  height: 2.7rem;
+  padding: 0;
+}
+
+.header .navbar-toggler:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.header .header_right span{
+  color: var(--secondary-color);
+  display: block;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+
+.header .header_right .phone_no{
+  color: var(--text-white);
+  font-size: 1.7rem;
+}
+
+.header-scrolled{
+  position: fixed;
+  top: -0.4rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
+  z-index: 999;
+  transition: 0.3 all ease-in-out;
 }
