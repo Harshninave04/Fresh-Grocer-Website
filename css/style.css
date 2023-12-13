@@ -147,7 +147,49 @@ button:hover{
     background: var(--secondary-color);
 }
 
+.main-btn{
+  position: relative;
+  color: var(--bg-white);
+  background: linear-gradient(to right,#0f7404,#5cb917);
+  z-index: 1;
+  overflow: hidden;
+  border: 0.2rem solid var(--bg-white);
+  border-radius: 3.5rem;
+  text-transform: uppercase;
+  padding: 1rem 3.5rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  letter-spacing: 0.2rem;
+}
 
+.main-btn:hover{
+  background: var(--bg-white);
+  color: var(--secondary-color);
+  border: 0.2rem solid var(--secondary-color);
+}
+
+section{
+  padding: 5rem 0;
+}
+
+.section-title{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--primary-text);
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.section-subtitle{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--primary-text);
+  font-family: var(--secondary-font);
+  max-width: 40%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
 
 .about .banner_section,
 .product .banner_section,
