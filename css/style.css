@@ -295,3 +295,23 @@ section{
   padding: 3rem 0;
   height: 90vh;
 }
+
+.banner_section .carousel-caption{
+  top: 30%;
+  bottom: 0;
+  right: 0;
+  left: 3%;
+  text-align: left;
+  width: 100%;
+}
+
+.banner_section .carousel-caption h3{
+  display: inline;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--dark-color);
+}
+
+.banner_section .carousel-caption p{
+  max-width: 40rem;
+  margin-bottom: 2rem;
+}
