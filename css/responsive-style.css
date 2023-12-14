@@ -25,6 +25,10 @@
   } */
 
   /* 02 Banner Section*/
+
+  .banner_section .carousel-item{
+    height: 90vh;
+  }
 }
 
 /* ------ Media query 991px */
@@ -72,6 +76,13 @@
   /* 01 NAVBAR CSS */
 
   /* 02 Banner Section*/
+
+  .banner_section{
+    min-height: 70vh;
+  }
+  .banner_section .carousel-item{
+    height: 70vh;
+  }
 }
 
 /* ------ Media query 590px */
