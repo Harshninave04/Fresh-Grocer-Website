@@ -205,18 +205,6 @@ section{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* 01 Navbar Section */
 
 .header{
@@ -291,4 +279,19 @@ section{
   margin: auto;
   z-index: 999;
   transition: 0.3 all ease-in-out;
+}
+
+/* 02 Banner Section */
+
+.banner_section{
+  background: url(../images/banner-slide/Banner-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.banner_section .carousel-item{
+  padding: 3rem 0;
+  height: 90vh;
 }

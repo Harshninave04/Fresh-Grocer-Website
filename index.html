@@ -29,58 +29,106 @@
   </head>
 
   <body>
-    <!-- Navbar Section -->
-
+    <!-- Navbar Section Start-->
     <header id="full-nav">
       <div class="header">
         <div class="container">
-          <nav class="navbar navbar-expand-lg bg-light">
-            
-              <a class="navbar-brand" href="#">
-                <img src="./images/logo.png" alt="LOGO">
-              </a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-                <!-- <span class="navbar-toggler-icon"></span> -->
-                <!-- <i class="fa-sharp fa-solid fa-bars-staggered"></i> -->
-                <i class="fas fa-stream "></i>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="product.html">Product</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="gallery.html">Gallery</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="contact.html">Contact</a>
-                  </li>
-                </ul>
-                <div class="header_right">
-                  <div class="text-lg-end">
-                    <span>Call us!</span>
-                    <span class="phone_no">+91 9359436297</span>
-                  </div>
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+              <img src="./images/logo.png" alt="LOGO" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <!-- <span class="navbar-toggler-icon"></span> -->
+              <!-- <i class="fa-sharp fa-solid fa-bars-staggered"></i> -->
+              <i class="fas fa-stream"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <div class="header_right">
+                <div class="text-lg-end">
+                  <span>Call us!</span>
+                  <span class="phone_no">+91 9359436297</span>
                 </div>
               </div>
-            
+            </div>
           </nav>
         </div>
       </div>
     </header>
+    <!-- Navbar Section Exit-->
+
+    <!-- Banner Section Start -->
+
+    <section class="banner_section">
+      <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <!-- <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div> -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption">
+                <div class="banner-content">
+                  <h1>100% Organic</h1>
+                  <h3>Fresh and Normal Farm Food</h3>
+                  <p>Healthy to eat and nutritious for body. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  <a href="product.html" class="btn main-btn">All Products</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <div class="banner-content">
+                  <h1>100% Organic</h1>
+                  <h3>Fresh and Normal Farm Food</h3>
+                  <p>Healthy to eat and nutritious for body. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  <a href="product.html" class="btn main-btn">All Products</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- JQUERY CDN -->
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
@@ -95,5 +143,4 @@
     <!-- MAIN JS -->
     <script src="js/main.js"></script>
   </body>
-  
 </html>
