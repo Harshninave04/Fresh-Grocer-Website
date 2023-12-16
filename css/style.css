@@ -356,8 +356,13 @@ section{
 
 .feature_section .features-box:hover{
   background-color: var(--bg-dark-color);
+  border-color: var(--bg-dark-color);
 }
 
 .feature_section .features-box:hover h3{
   color: var(--light-color);
+}
+
+.feature_section .features-box:hover .features-icon-border{
+  border-color: var(--secondary-color);
 }
