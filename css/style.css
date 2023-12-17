@@ -39,7 +39,7 @@ html {
   color: var(--primary-text);
   font-size: 10px;
   font-weight: 400;
-  font-family: var(--primary-text);
+  font-family: var(--secondary-font);
   scroll-behavior: smooth;
   line-height: 1.5;
 }
@@ -59,6 +59,7 @@ h1 {
   line-height: 1.4;
   font-weight: 600;
   color: var(--primary-text);
+  letter-spacing: -0.25rem;
 }
 
 h2 {
@@ -365,4 +366,21 @@ section{
 
 .feature_section .features-box:hover .features-icon-border{
   border-color: var(--secondary-color);
+}
+
+
+/* 04 About Section*/
+
+.landing_about_section{
+  background: url(../images/about/about-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 9rem 0;
+}
+
+.landing_about_section p{
+  margin-bottom: 2rem;
+  color: var(--primary-text);
+  font-family: var(--secondary-font);
 }
