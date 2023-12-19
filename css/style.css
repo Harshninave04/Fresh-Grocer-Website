@@ -176,7 +176,7 @@ section{
 }
 
 .section-title{
-  font-size: 1.6rem;
+  font-size: 1.6 rem;
   font-weight: 400;
   color: var(--primary-text);
   text-transform: capitalize;
@@ -184,7 +184,7 @@ section{
 }
 
 .section-subtitle{
-  font-size: 1.6rem;
+  font-size: 1.6 rem;
   font-weight: 400;
   color: var(--primary-text);
   font-family: var(--secondary-font);
