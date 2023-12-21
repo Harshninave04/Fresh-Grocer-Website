@@ -433,3 +433,49 @@ section{
 .landing_product_section .product-card:hover .product-detail{
   bottom: 0;
 }
+
+/* Testimonail */
+
+.testimonial_section{
+  background-color: var(--light-color);
+  padding: 8rem;
+}
+
+.testimonial_section .carousel-indicators{
+  bottom: -6rem;
+}
+
+.testimonial_section .carousel-indicators button{
+  background-color: var(--dark-color);
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+}
+
+.testimonial_section .card{
+  background: url(../images/testimonial/testimonial-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: right;
+  padding: 5rem 5rem 5rem 0;
+  border-radius:0 0.5rem .5rem 0;
+  border: 0.1rem solid transparent;
+}
+
+.testimonial_section .profile-box{
+  padding: 1.875rem;
+  background-color: var(--dark-color);
+  border-radius: 0.5rem 0 0 .5rem;
+}
+
+.testimonial_section .profile-box img{
+  width: 100%;
+  height: 100%;
+  border-radius: 0.625rem 3.125rem;
+  object-fit: cover;
+}
+
+.testimonial_section .desc-box{
+    padding-left: 2.5rem;
+}
