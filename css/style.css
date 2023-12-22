@@ -488,3 +488,44 @@ section{
   height: 100%;
   object-fit: cover;
 }
+
+/* Footer CSS */
+
+.footer_wrapper{
+  background: url(../images/footer-bg/footer_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 15rem;
+  padding-bottom: 0rem;
+}
+
+.footer_wrapper h5{
+  color: var(--text-white);
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.footer_wrapper ul li{
+  margin-bottom: 0.5rem;
+  list-style: none;
+}
+
+.footer_wrapper .company_details{
+  font-size: 1.4rem;
+}
+
+.footer_wrapper .contact-info li a{
+  color: var(--text-gray);
+  font-size: 1.6rem;
+}
+
+.footer_wrapper .link-widget li a,
+.footer_wrapper p{
+  color: var(--text-gray);
+  font-size: 1.6rem;
+  padding-left: 1.5rem;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
